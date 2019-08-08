@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Siga-Fatec-Pocket/precache-manifest.19d88605f2cb225148f922ca1c646ca3.js"
+  "/Siga-Fatec-Pocket/precache-manifest.1c0ba5a3a0bf024cbfdee4a2e4d2b0b2.js"
 );
 
 self.addEventListener('message', (event) => {

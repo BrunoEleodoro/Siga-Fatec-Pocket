@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4de03e6fcb38fcb60a02eb461de00d4",
+    "revision": "8c4deb1f655a9db2047c214fa7c4877c",
     "url": "/Siga-Fatec-Pocket/index.html"
   },
   {

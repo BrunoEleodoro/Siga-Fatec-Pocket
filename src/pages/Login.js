@@ -7,6 +7,7 @@ import GridMaterial from "@material-ui/core/Grid"
 import { Button, Icon } from "@material-ui/core";
 import LoginIcon from "@material-ui/icons/SendOutlined"
 import { callAPI } from "../api/ApiConnector";
+import ReactGA from "react-ga"
 
 export default class Login extends React.Component {
     constructor(props) {
@@ -15,6 +16,9 @@ export default class Login extends React.Component {
             usuario: "",
             senha: ""
         }
+    }
+    componentDidMount() {
+        ReactGA.initialize('UA-145398422-1');
     }
     handleChange = (e) => {
         console.log()
@@ -25,6 +29,10 @@ export default class Login extends React.Component {
         localStorage.setItem("usuario", new Buffer(this.state.usuario).toString('base64'))
         localStorage.setItem("senha", new Buffer(this.state.senha).toString('base64'))
         this.props.nextPage();
+        ReactGA.event({
+            category: 'Login',
+            action: 'Login button pressed'
+        });
     }
     render() {
         return (

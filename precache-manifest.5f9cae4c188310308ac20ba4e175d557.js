@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d0c8a640825202432a21d22082554d4",
+    "revision": "a54ec4c1204fc9d3abe803ad3c29adaf",
     "url": "/Siga-Fatec-Pocket/index.html"
   },
   {
-    "revision": "5cfdf4d24cfb68382965",
+    "revision": "044aada9af660ba27bd4",
     "url": "/Siga-Fatec-Pocket/static/css/2.b478bd5f.chunk.css"
   },
   {
-    "revision": "dd42d3b7b70ce4487a40",
+    "revision": "5b9fc012acd0dfe3711a",
     "url": "/Siga-Fatec-Pocket/static/css/main.38395e36.chunk.css"
   },
   {
-    "revision": "5cfdf4d24cfb68382965",
-    "url": "/Siga-Fatec-Pocket/static/js/2.3e29069c.chunk.js"
+    "revision": "044aada9af660ba27bd4",
+    "url": "/Siga-Fatec-Pocket/static/js/2.7f2118b2.chunk.js"
   },
   {
-    "revision": "dd42d3b7b70ce4487a40",
-    "url": "/Siga-Fatec-Pocket/static/js/main.fe8cb51c.chunk.js"
+    "revision": "5b9fc012acd0dfe3711a",
+    "url": "/Siga-Fatec-Pocket/static/js/main.61f6ffee.chunk.js"
   },
   {
     "revision": "fc852b413cdacab15bff",

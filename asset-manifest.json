@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Siga-Fatec-Pocket/static/css/main.38395e36.chunk.css",
-    "main.js": "/Siga-Fatec-Pocket/static/js/main.150dde27.chunk.js",
-    "main.js.map": "/Siga-Fatec-Pocket/static/js/main.150dde27.chunk.js.map",
-    "runtime~main.js": "/Siga-Fatec-Pocket/static/js/runtime~main.b6731cc0.js",
-    "runtime~main.js.map": "/Siga-Fatec-Pocket/static/js/runtime~main.b6731cc0.js.map",
-    "static/css/2.b478bd5f.chunk.css": "/Siga-Fatec-Pocket/static/css/2.b478bd5f.chunk.css",
-    "static/js/2.3be13a0a.chunk.js": "/Siga-Fatec-Pocket/static/js/2.3be13a0a.chunk.js",
-    "static/js/2.3be13a0a.chunk.js.map": "/Siga-Fatec-Pocket/static/js/2.3be13a0a.chunk.js.map",
-    "index.html": "/Siga-Fatec-Pocket/index.html",
-    "precache-manifest.0d0c52b058544b4774837bc3b49f9f88.js": "/Siga-Fatec-Pocket/precache-manifest.0d0c52b058544b4774837bc3b49f9f88.js",
-    "service-worker.js": "/Siga-Fatec-Pocket/service-worker.js",
-    "static/css/2.b478bd5f.chunk.css.map": "/Siga-Fatec-Pocket/static/css/2.b478bd5f.chunk.css.map",
-    "static/css/main.38395e36.chunk.css.map": "/Siga-Fatec-Pocket/static/css/main.38395e36.chunk.css.map",
-    "static/media/logo.svg": "/Siga-Fatec-Pocket/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.38395e36.chunk.css",
+    "main.js": "/static/js/main.edf7e936.chunk.js",
+    "main.js.map": "/static/js/main.edf7e936.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.b478bd5f.chunk.css": "/static/css/2.b478bd5f.chunk.css",
+    "static/js/2.23640fc9.chunk.js": "/static/js/2.23640fc9.chunk.js",
+    "static/js/2.23640fc9.chunk.js.map": "/static/js/2.23640fc9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1821648fe96ab858053d69d9231339f4.js": "/precache-manifest.1821648fe96ab858053d69d9231339f4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b478bd5f.chunk.css.map": "/static/css/2.b478bd5f.chunk.css.map",
+    "static/css/main.38395e36.chunk.css.map": "/static/css/main.38395e36.chunk.css.map",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   }
 }

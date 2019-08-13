@@ -1,6 +1,6 @@
 # SIGA Fatec Pocket
 
-https://brunoeleodoro.github.io/Siga-Fatec-Pocket/
+https://fatecpocket.brunoeleodoro.com/
 
 ![](https://raw.githubusercontent.com/BrunoEleodoro/Siga-Fatec-Pocket/master/screencapture-localhost-3000-2019-08-10-13_54_23.png)
 
@@ -10,6 +10,6 @@ https://brunoeleodoro.github.io/Siga-Fatec-Pocket/
 
 The next generation of this portal.
 
-https://brunoeleodoro.github.io/Siga-Fatec-Pocket/
+https://fatecpocket.brunoeleodoro.com/
 
 Stay tuned...

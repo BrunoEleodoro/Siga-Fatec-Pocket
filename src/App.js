@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { withTheme, ThemeProvider } from '@material-ui/styles';
 import Dashboard from './pages/Dashboard';
+import ReactGA from 'react-ga';
 
 const theme = createMuiTheme({
     palette: {
@@ -27,6 +28,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
+        ReactGA.initialize('UA-145398422-1');
         this.getDataFromLocalStorage();
         this.setState({ reload: true });
     }
@@ -40,6 +42,7 @@ class App extends React.Component {
     }
 
     render() {
+
         var pageContent = ""
         if (this.state.usuario == null || this.state.usuario.length == 0) {
             pageContent = (<Login nextPage={this.nextPage} />)

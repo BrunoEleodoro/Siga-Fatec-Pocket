@@ -78,6 +78,13 @@ export default class Login extends React.Component {
                                         LOGIN
                                         <LoginIcon style={{ marginLeft: "5px" }} />
                                     </Button>
+
+                                    <Row center="xs" style={{ marginTop: "20px" }}>
+                                        <Col xs={12}>
+                                            <a href="https://itunes.apple.com/us/app/fatec-pocket/id1448106957" target="_blank"><img src="https://github.com/BrunoEleodoro/Siga-Fatec-Pocket/blob/master/button-macappstore.png?raw=true" height="50px" /></a>
+                                            <a href="https://play.google.com/store/apps/details?id=com.brunoeleodoro.me.fatecpocket" target="_blank"><img src="https://github.com/BrunoEleodoro/Siga-Fatec-Pocket/blob/master/get%20it.png?raw=true" height="50px" /></a>
+                                        </Col>
+                                    </Row>
                                 </GridMaterial>
                             </CardContent>
                         </Card>

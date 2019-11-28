@@ -11,7 +11,7 @@ export function getSenha() {
 
 export function updateBasicInfo() {
     return new Promise((resolve, reject) => {
-        callAPI("https://basic-info-siga-pocket.brunoeleodoro.now.sh", {
+        callAPI("https://brunoeleodoro.com:3000/getBasicInfo", {
             usuario: getUsuario(),
             senha: getSenha()
         }).then((result) => {
@@ -31,7 +31,7 @@ export function updateBasicInfo() {
 
 export function updateClassHours() {
     return new Promise((resolve, reject) => {
-        callAPI("https://class-hours-siga-pocket.brunoeleodoro.now.sh", {
+        callAPI("https://brunoeleodoro.com:3000/getClassHours", {
             usuario: getUsuario(),
             senha: getSenha()
         }).then((result) => {
@@ -45,7 +45,7 @@ export function updateClassHours() {
 
 export function updateMissClasses() {
     return new Promise((resolve, reject) => {
-        callAPI("https://miss-classes-siga-pocket.brunoeleodoro.now.sh", {
+        callAPI("https://brunoeleodoro.com:3000/getMissClasses", {
             usuario: getUsuario(),
             senha: getSenha()
         }).then((result) => {
@@ -60,7 +60,7 @@ export function updateMissClasses() {
 
 export function updateSubjects() {
     return new Promise((resolve, reject) => {
-        callAPI("https://subjects-siga-pocket.brunoeleodoro.now.sh", {
+        callAPI("https://brunoeleodoro.com:3000/getSubjects", {
             usuario: getUsuario(),
             senha: getSenha()
         }).then((result) => {
@@ -74,7 +74,7 @@ export function updateSubjects() {
 
 export function updateTestResults() {
     return new Promise((resolve, reject) => {
-        callAPI("https://test-results-siga-pocket.brunoeleodoro.now.sh", {
+        callAPI("https://brunoeleodoro.com:3000/getTestResults", {
             usuario: getUsuario(),
             senha: getSenha()
         }).then((result) => {
@@ -88,9 +88,10 @@ export function updateTestResults() {
 
 export function updateSubjectResources() {
     return new Promise((resolve, reject) => {
-        callAPI("https://subject-resources-pocket-siga-pocket.brunoeleodoro.now.sh", {
+        callAPI("https://brunoeleodoro.com:3000/getSubjectResources", {
             usuario: getUsuario(),
-            senha: getSenha()
+            senha: getSenha(),
+            subject: 'all'
         }).then((result) => {
             resolve(result.response)
         }).catch((ex) => {

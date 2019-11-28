@@ -38,7 +38,7 @@ export default class Login extends React.Component {
         return (
             <Grid fluid style={{ height: '100vh', backgroundColor: "#303030" }}>
                 <Row center="xs" middle="xs" style={{ height: '100vh' }}>
-                    <Col lg={3} md={6} xs={11}>
+                    <Col lg={4} md={8} xs={11}>
                         <Card elevation={10}>
                             <CardContent>
                                 <GridMaterial container direction="column" justify="center" alignItems="center" >
